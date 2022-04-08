@@ -215,7 +215,7 @@ const cleanArray = value => {
 }
 
 const changeFizzBuzz = value => {
-  if ((Number(value)%3 === 0)&&(Number(value)%5) === 0) return "FizzBuzz";
+  if (Number(value)%3 === 0 && Number(value)%5 === 0) return "FizzBuzz";
   else if ((Number(value)%3 == 0)) return "Fizz";
   else if ((Number(value)%5 == 0)) return "Buzz";
   else return value.toString();
